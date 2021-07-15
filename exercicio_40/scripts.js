@@ -19,8 +19,8 @@ class contaBanco {
         this.saldoCorrente += valor;
     }
     jurosDeAniversario() {
-        let juros = (this.saldoPoupanca * this.juros) / 100;  //pq essa logica nao funciona?
-        this.saldoPoupanca += this.juros;
+        let juros = (this.saldoPoupanca * this.juros) / 100;  
+        this.saldoPoupanca += juros;
     }
 }
 
